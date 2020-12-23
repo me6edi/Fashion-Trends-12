@@ -250,3 +250,47 @@
   padding: 5px;
   cursor: pointer;
 }
+
+/*---- footer --*/
+.footer{
+  margin-top: 15px;
+  background: #f5f6fc;
+}
+.payment,.insta-img,.app-download{
+  margin: 50px auto;
+}
+.payment img{
+  width: 200px;
+  cursor: pointer;
+}
+.insta-img img{
+  width: 44%;
+  padding: 5px;
+  cursor: pointer;
+}
+.app-download img{
+  width: 240px;
+  margin-top: 12px;
+}
+.footer h5{
+  margin-bottom: 50px;
+}
+.footer h5::before{
+  content: '';
+  width: 70px;
+  height: 3px;
+  background: #4f74e8;
+  top: 75px;
+  position: absolute;
+}
+.developer-text{
+  background: #000;
+  color: #fff;
+}
+.developer-text p{
+  margin-bottom: 0px !important;
+  padding: 15px;
+}
+.footer span {
+  color: red;
+}
