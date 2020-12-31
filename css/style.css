@@ -27,6 +27,11 @@
 .navbar-brand img{
   width: 160px;
 }
+
+.right-menu .fa:hover{
+  color: #f992a6;
+}
+
 .navbar-brand{
   left: 50%;
   top: 25px;
@@ -204,9 +209,14 @@
   width: 300px;
   display: inline-block;
 }
+.blog-img img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .blog-img img{
   width: 100%;
   height: 100%;
+  transition: .3s;
 }
 .fashion-blog h5{
   margin-top: 20px;
